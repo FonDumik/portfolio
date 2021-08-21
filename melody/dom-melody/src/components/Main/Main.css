@@ -2,6 +2,8 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 50px 0;
+  display: flex;
+  align-items: center;
 }
 
 .home-image > path {
@@ -11,4 +13,81 @@
 
 .home-image > path:hover {
   opacity: 1;
+}
+
+.choice-floor {
+  flex-grow: 1;
+  text-align: center;
+  color: #635854;
+}
+
+.choice-floor-head {
+  font-size: 27px;
+  text-transform: uppercase;
+  margin-bottom: 116px;
+}
+
+.manage-floor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 116px;
+}
+
+.current-floor {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 100px;
+}
+
+.manage-floor-button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: 6px solid #3596F5;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.manage-floor-button:hover {
+  border-color: #635854;
+}
+
+.manage-floor-button_down {
+  border-top: 0;
+  border-right: 0;
+  transform: rotate(-45deg);
+}
+
+.manage-floor-button_up {
+  border-bottom: 0;
+  border-left: 0;
+  transform: rotate(-45deg);
+}
+
+.show-popup {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #3596F5;
+  border-radius: 6px;
+  padding: 16px 36px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.show-popup:hover {
+  background-color: #fff;
+  border: 1px solid #3596F5;
+  color: #635854;
+  margin: -1px;
+}
+
+.show-popup:active {
+  color: #FFFFFF;
+  background: #3596F5;
+  border: none;
+  margin-top: 1px;
 }
