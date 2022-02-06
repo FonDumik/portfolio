@@ -1,0 +1,42 @@
+.app-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.my20 {
+  margin: 20px 0;
+}
+
+.collection-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection-item [type="checkbox"] + span:not(.lever) {
+  line-height: inherit;
+}
+
+.completed span {
+  text-decoration: line-through;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.todoApp {
+  width: 500px;
+}
+
+.todoApp__header {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.todoApp__list {
+  list-style-type: none;
+  padding: 0;
+}
